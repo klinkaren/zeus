@@ -11,14 +11,17 @@ include(__DIR__.'/config.php');
 $zeus['stylesheets'][] = 'css/om.css';
 
 // Create instance of CContent
-$info = new CPart($zeus['database']);
+$filter = new CTextFilter();
 
 
+$file = file_get_contents('../README.md', true);
+
+$text = $filter->doFilter($file, "markdown");
 
 // Put everything in Zeus container.
 $zeus['title'] = "Readme";
 
-$zeus['main'] = "Inkludera README.md med hjälp av markdown!"
+$zeus['main'] = $text;
 
 
 
