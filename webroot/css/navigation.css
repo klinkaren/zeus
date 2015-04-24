@@ -1,0 +1,151 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400);
+
+.navbar {
+  
+}
+
+#searchbox {
+  position: absolute;
+  bottom: 12px;
+  right: 15px;
+}
+.searchbox{
+  border: 2px solid #222;
+  border-radius: 15px;
+  padding: 5px;
+  font-style: italic;
+  color: #666;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: small;
+}
+
+#navigation {
+  width: 100%;
+  background-color: #222;
+  color: #fff;
+  position: absolute;
+  height: 60px;
+}
+
+#navContainer{
+  position: relative;
+  height: 60px;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: small;
+
+
+}
+#navlogo {
+  float: left;
+  line-height: 60px;
+} 
+#navlogo img {
+  
+  vertical-align: middle;
+}
+
+/** --------------------------------------------------------------
+ * Navbar: Dropdown menu
+ *
+ */
+ 
+.navbar ul {
+  list-style: none; 
+  margin: 0; 
+  padding: 0;
+}
+ 
+.navbar li {
+  display: inline-block;
+  color: #fff; 
+  position: relative; 
+}
+ 
+.navbar a {
+  display: block;
+  padding-right: 1em;
+  padding-left: 1em;
+  text-decoration: none;
+  color: inherit;
+  white-space: nowrap; 
+  height: 60px;
+  line-height: 60px;
+}
+.navbar a:hover {
+  text-decoration: none;
+  color: inherit;
+  background-color: #ccc;
+  white-space: nowrap; 
+}
+
+.navbar li:hover {
+  text-decoration: none;
+} 
+
+
+li.submenu{
+  width: 100%;
+}
+.submenu a{
+  border: none;
+  color: inherit;
+}
+.submenu{
+  padding: 0px;
+  margin: 0px;
+}
+ 
+.navbar li.selected-parent, 
+.navbar li.selected {
+
+}
+
+.navbar ul ul {
+  background-color: #888; 
+  padding: 0px; 
+  position: absolute; 
+  left: -9999px; 
+  z-index: 2;
+  opacity: 0.95;
+}
+ 
+.navbar li li {
+
+}
+
+.navbar li:hover ul {
+  left: 0;
+}
+ 
+.navbar li li:hover {
+  color: inherit; 
+  border-color: #666;
+}
+
+.navbar li li.selected {
+}
+
+.italic {
+  font-style: italic;
+}
+
+.orderby a, .menu a {
+  text-decoration: none;
+  color: black;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+.editLink a {
+  font-size: 0.85em;
+  color: #666;
+}

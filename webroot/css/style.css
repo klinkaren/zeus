@@ -1,0 +1,148 @@
+/**
+ * MAIN STYLESHEET
+ */
+@import url(navigation.css);
+
+/**
+ * Fonts
+ */
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+
+/* HTML5 ELEMENTS */
+  header,footer,nav,article,section,aside,figure,figcaption,output{display:block;}
+
+/**
+ * General elements
+ */
+html {
+  margin: 0;
+  padding: 0;
+  overflow-y:scroll; /* Always display the scrollbar, avoid flipping pages */
+}
+body {
+  color: #333;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+ 
+/**
+ * Layout of the main page elements 
+ */
+#wrapper {
+  margin: 0 auto;
+  width: 980px; 
+  padding: 0 auto;
+}
+.subtitle{
+  margin-top: -10px;
+  font-style: italic;
+}
+.center{
+  text-align: center;
+}
+ 
+ 
+/**
+ * Layout for header
+ */
+#header {
+  position: relative;
+  margin-bottom: 10px;
+}
+#headerBg{
+  width: 100%;
+  height: 60px;
+  position: absolute;
+  background-color: #222;
+}
+ 
+.sitetitle {
+  position: absolute;
+  top: 6px;
+  left: 130px;
+  font-size: 48px;
+}
+ 
+.siteslogan {
+  position: absolute;
+  top: 65px;
+  left: 130px;
+  font-style: italic;
+  color: #666;color: #666;
+  font-size: 0.85em;
+  text-decoration: none;
+}
+
+ 
+/**
+ * Layout for main
+ */
+#main {
+  min-height: 20em;
+  overflow: auto;}
+ 
+ 
+/**
+ * Layout for footer
+ */
+#footer {
+  margin-top: 40px;
+  border-top: 1px solid #ccc;
+  padding: 15px;
+}
+ 
+.sitefooter {
+  color: #666;
+  font-size: 0.85em;
+  text-decoration: none;
+}
+.imdb{
+  text-align: center;
+}
+.smallText{
+    color: #666;
+    font-size: 0.85em;
+    text-decoration: none;
+}
+.smallText a{
+    color: #666;
+    font-size: 0.85em;
+    text-decoration: none;
+}
+.smallText a:hover{
+    color: #333;
+}
+.center{
+  text-align: center;
+}
+.fullWidth{
+  width: 100%;
+}
+
+/**------------------------------------------------------- 
+ * Layout
+ *
+ */
+aside{
+  overflow: auto;
+  width: 200px;
+}
+.hasSide{
+  width : 760px;
+}
+.right{ 
+  float: right;
+}
+.left{
+  float: left;
+}
+.failure{
+  color: red;
+}
+.success{
+  color: green;
+}
+.readMore{
+  font-style: italic;
+}

@@ -1,0 +1,1 @@
+Zeus is a PHP-boilerplate/framework for small websites. Zeus is a modification on Anax, that was built by Mikael Roos (me@mikaelroos.se).
