@@ -15,7 +15,7 @@ $zeus['stylesheets'][] = 'css/hem.css';
 
 // Send all to Zeus to render
 $zeus['title'] = 'First page';
-$zeus['main'] = '<h1>Zeus</h1><p>A php framework</p>';
+$zeus['main'] = '<h1>Zeus</h1><p>A php framework. See readme for more information.</p>';
 
 	
 // Finally, leave it all to the rendering phase of Zeus.
